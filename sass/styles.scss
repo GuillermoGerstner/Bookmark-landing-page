@@ -1,0 +1,61 @@
+@use 'header';
+@use 'main';
+@use 'footer';
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+:root {
+    --One: #5267DF;
+    //$One: #5267DF;
+
+    --Two: #FA5959;
+    //$Two: #FA5959;
+
+    --Title: #242A45;
+    //$Title: #242A45;
+
+    --Text: #9194A2;
+    //$Text: #9194A2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+
+    .web {
+        background-color: #ff929200;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        width: 100%;
+        height: auto;
+
+        @media (min-width: 1440px) {
+            width: 1440px;
+        }
+    }
+}
+
+.arrowFaq {
+    transform: rotateX(180deg);
+    content: url('./files/images/icon-arrow-color.svg');
+}
+.appearFaq {
+    max-height: 280px;
+}
+
+.iconError {
+    right: 16px;
+    transform: rotate(-360deg);
+}
+.blockError {
+    height: 70px;
+}

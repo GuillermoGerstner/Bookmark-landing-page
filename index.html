@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./files/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Bookmark landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="web">  
+    <header class="h">
+      <nav class="h__nav">
+        <img src="./files/images/logo-bookmark.svg" alt="logo" class="h__nav__logo">
+      
+        <div class="h__nav__links">
+          <a href="#" class="h__nav__links__1">Features</a>
+        
+          <a href="#" class="h__nav__links__2">Pricing</a>
+        
+          <a href="#" class="h__nav__links__3">Contact</a>
+        
+          <button class="h__nav__links__btn">Login</button>
+        </div>
+  
+        <img src="./files/images/icon-hamburger.svg" alt="menu" class="h__nav__menu">
+      </nav>
+    </header>
+
+    <div class="modal">
+      <div class="modal__content">
+        <img src="./files/images/logo-bookmark-color.svg" alt="logo" class="modal__content__logo">
+        <img src="./files/images/icon-close.svg" alt="close" class="modal__content__close">
+      
+        <a href="#" class="modal__content__features">Features</a>
+        <a href="#" class="modal__content__pricing">Pricing</a>
+        <a href="#" class="modal__content__contact">Contact</a>
+
+        <hr class="modal__content__divider1">
+        <hr class="modal__content__divider2">
+        <hr class="modal__content__divider3">
+        <hr class="modal__content__divider4">
+
+        <button class="modal__content__btn">Login</button>
+        
+        <img src="./files/images/icon-facebook.svg" alt="facebook" class="modal__content__facebook">
+        <img src="./files/images/icon-twitter.svg" alt="twitter" class="modal__content__twitter">
+      </div>
+    </div>
+
+    <main class="m">
+      <section class="m__hero">
+        <div class="m__hero__background"></div>
+
+        <img src="./files/images/illustration-hero.svg" alt="image" class="m__hero__image">
+      
+        <div class="m__hero__content">
+          <h1 class="m__hero__content__title">A Simple Bookmark Manager</h1>
+
+          <p class="m__hero__content__description">
+            A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.
+          </p>
+
+          <button class="m__hero__content__btnChrome">Get it on Chrome</button>
+          <button class="m__hero__content__btnFirefox">Get it on Firefox</button>
+        </div>
+      </section>
+
+      <section class="m__features">
+        <h2 class="m__features__title">Features</h2>
+      
+        <p class="m__features__description">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+      
+        <div class="m__features__selector">
+          <p class="m__features__selector__title1">Simple Bookmarking</p>
+          <p class="m__features__selector__title2">Speedy Searching</p>
+          <p class="m__features__selector__title3">Easy Sharing</p>
+        
+          <div class="m__features__selector__mobiledivider1"></div>
+          <div class="m__features__selector__mobiledivider2">
+            <div class="m__features__selector__mobiledivider2__block"></div>
+            <div class="m__features__selector__mobiledivider2__line"></div>
+          </div>
+          <div class="m__features__selector__mobiledivider3">
+            <div class="m__features__selector__mobiledivider3__block"></div>
+            <div class="m__features__selector__mobiledivider3__line"></div>
+          </div>
+          <div class="m__features__selector__mobiledivider4">
+            <div class="m__features__selector__mobiledivider4__block"></div>
+            <div class="m__features__selector__mobiledivider4__line"></div>
+          </div>
+
+          <div class="m__features__selector__desktopdivider">
+            <div class="m__features__selector__desktopdivider__block"></div>
+            <div class="m__features__selector__desktopdivider__line"></div>
+          </div>
+        </div>
+
+        <div class="m__features__background"></div>
+      
+        <div class="m__features__slide1">
+          <img src="./files/images/illustration-features-tab-1.svg" alt="image" class="m__features__slide1__image">
+
+          <div class="m__features__slide1__content">
+            <h2 class="m__features__slide1__content__title">Bookmark in one click</h2>
+            <p class="m__features__slide1__content__description">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+            <button class="m__features__slide1__content__btn">More Info</button>
+          </div>
+        </div>
+
+        <div class="m__features__slide2">
+          <img src="./files/images/illustration-features-tab-2.svg" alt="image" class="m__features__slide2__image">
+
+          <div class="m__features__slide2__content">
+            <h2 class="m__features__slide2__content__title">Intelligent search</h2>
+            <p class="m__features__slide2__content__description">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+            <button class="m__features__slide2__content__btn">More Info</button>
+          </div>
+        </div>
+
+        <div class="m__features__slide3">
+          <img src="./files/images/illustration-features-tab-3.svg" alt="image" class="m__features__slide3__image">
+
+          <div class="m__features__slide3__content">
+            <h2 class="m__features__slide3__content__title">Share your bookmarks</h2>
+            <p class="m__features__slide3__content__description">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+            <button class="m__features__slide3__content__btn">More Info</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="m__extensions">
+        <h2 class="m__extensions__title">Download the extension</h2>
+        <p class="m__extensions__description">We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
+      
+        <div class="m__extensions__card1">
+          <img src="./files/images/logo-chrome.svg" alt="logo" class="m__extensions__card1__logo">
+          <h3 class="m__extensions__card1__title">Add to Chrome</h3>
+          <p class="m__extensions__card1__subtitle">Minimum version 62</p>
+          <img src="./files/images/bg-dots.svg" alt="divider" class="m__extensions__divider">
+          <button class="m__extensions__btn">Add & Install Extension</button>
+        </div>
+
+        <div class="m__extensions__card2">
+          <img src="./files/images/logo-firefox.svg" alt="logo" class="m__extensions__card2__logo">
+          <h3 class="m__extensions__card2__title">Add to Firefox</h3>
+          <p class="m__extensions__card2__subtitle">Minimum version 55</p>
+          <img src="./files/images/bg-dots.svg" alt="divider" class="m__extensions__divider">
+          <button class="m__extensions__btn">Add & Install Extension</button>
+        </div>
+
+        <div class="m__extensions__card3">
+          <img src="./files/images/logo-opera.svg" alt="logo" class="m__extensions__card3__logo">
+          <h3 class="m__extensions__card3__title">Add to Opera</h3>
+          <p class="m__extensions__card3__subtitle">Minimum version 46</p>
+          <img src="./files/images/bg-dots.svg" alt="divider" class="m__extensions__divider">
+          <button class="m__extensions__btn">Add & Install Extension</button>
+        </div>
+      </section>
+
+      <section class="m__faq">
+        <h3 class="m__faq__title">Frequently Asked Questions</h3>
+        <p class="m__faq__description">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+      
+        <div class="m__faq__content">
+          <hr class="m__faq__content__line">
+
+          <div class="m__faq__content__option1">
+            <div class="m__faq__content__option1__question">
+              <img src="./files/images/icon-arrow.svg" alt="arrow" class="m__faq__content__option1__question__image">
+              <p class="m__faq__content__option1__question__text">What is Bookmark?</p>
+            </div>
+
+            <p class="m__faq__content__option1__answer">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+          </div>
+          <hr class="m__faq__content__line__inter">
+          <div class="m__faq__content__option2">
+            <div class="m__faq__content__option2__question">
+              <img src="./files/images/icon-arrow.svg" alt="arrow" class="m__faq__content__option2__question__image">
+              <p class="m__faq__content__option2__question__text">How can I request a new browser?</p>
+            </div>
+
+            <p class="m__faq__content__option2__answer">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
+          </div>
+          <hr class="m__faq__content__line__inter">
+          <div class="m__faq__content__option3">
+            <div class="m__faq__content__option3__question">
+              <img src="./files/images/icon-arrow.svg" alt="arrow" class="m__faq__content__option3__question__image">
+              <p class="m__faq__content__option3__question__text">Is there a mobile app?</p>
+            </div>
+
+            <p class="m__faq__content__option3__answer">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.</p>
+          </div>
+          <hr class="m__faq__content__line__inter">
+          <div class="m__faq__content__option4">
+            <div class="m__faq__content__option4__question">
+              <img src="./files/images/icon-arrow.svg" alt="arrow" class="m__faq__content__option4__question__image">
+              <p class="m__faq__content__option4__question__text">What about other Chromium browsers?</p>
+            </div>
+
+            <p class="m__faq__content__option4__answer">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam vitae neque eget nisl gravida pellentesque non ut velit.</p>
+          </div>
+
+          <hr class="m__faq__content__line__b">
+        </div>
+
+        <button class="m__faq__btn">More Info</button>
+      </section>
+    </main>
+
+    <footer class="f">
+      <div class="f__content">
+        <p class="f__content__text">35,000+ already joined</p>
+        <h3 class="f__content__title">Stay up-to-date with what we’re doing</h3>
+        
+        <div class="f__content__error">
+          <p class="f__content__error__text">Whoops, make sure it’s an email</p>
+        </div>
+        <label for="email" class="f__content__email">
+          <input type="email" id="email" class="f__content__email__input" placeholder="Enter your email address">
+          <img src="./files/images/icon-error.svg" alt="error" class="f__content__email__image">
+        </label>
+
+        <button class="f__content__btn">Contact Us</button>
+      </div>
+
+      <nav class="f__bar">
+        <img src="./files/images/logo-bookmark-footer.svg" alt="logo" class="f__bar__logo">
+
+        <a href="#" class="f__bar__features">Features</a>
+        <a href="#" class="f__bar__pricing">Pricing</a>
+        <a href="#" class="f__bar__contact">Contact</a>
+
+        <img src="./files/images/icon-facebook.svg" alt="facebook" class="f__bar__facebook">
+        <img src="./files/images/icon-twitter.svg" alt="twitter" class="f__bar__twitter">
+      </nav>
+
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.linkedin.com/in/guillermogerstner">Guillermo Gerstner</a>.
+      </p>
+    </footer>
+  </div>
+
+  <script src="./js/modal.js"></script>
+  <script src="./js/features.js"></script>
+  <script src="./js/faq.js"></script>
+  <script src="./js/footer.js"></script>
+</body>
+</html>
